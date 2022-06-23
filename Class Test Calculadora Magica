@@ -1,0 +1,20 @@
+@isTest
+public class CalculadoraMagicaTest {
+@isTest	
+        public static void testCalculadora(){
+            
+            CalculadoraMagica Test = new  CalculadoraMagica();
+            
+          Decimal somaTest = Test.soma(2,2);
+          Decimal subtraTest = Test.subtrair(2,1);
+          Decimal diviTest = Test.dividir(4,2);
+          Decimal multiTest = Test.multiplicar(2,2);
+          Decimal mediaTest = Test.media(6,7);
+            
+			system.assertEquals(4, somaTest, 'Deu merda era 4');
+			system.assertEquals(1, subtraTest, 'Deu merda era 1');
+			system.assertEquals(2, diviTest, 'Deu merda era 2');
+			system.assertEquals(4, multiTest, 'Deu merda era 4');
+			system.assertEquals(6.5, mediaTest, 'Deu merda era 6,5');
+        }
+}
