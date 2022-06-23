@@ -1,0 +1,18 @@
+public class CalculadoraMagica {
+    
+    public Integer soma(Integer a, Integer b){
+        return a+b;
+  }
+    public Integer subtrair(Integer a, Integer b){
+         return a-b;
+	}
+    public Decimal dividir(Decimal a, Decimal b){
+        return a/b;
+   }
+    public Decimal multiplicar(Decimal a, Decimal b){
+        return a*b;
+   }
+    public Decimal media (Decimal a, Decimal B){
+        return (a+b)/2;
+    }
+}
